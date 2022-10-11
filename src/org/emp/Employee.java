@@ -17,6 +17,10 @@ public class Employee {
 	}
 	private void empAddress() {
 		System.out.println("3/64,East Street,Eas Rajapalayam");
+		
+	}
+	private void empName() {
+		System.out.println("kavitha");
 	}
 	
 	public static void main (String[]args) {
@@ -25,7 +29,8 @@ public class Employee {
 		s.empDob();
 		s.empPhone();
 		s.empEmail();
-		s.empAddress();  
+		s.empAddress(); 
+		s.empName();
 	}
 	
 	
